@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-img {
+    width: 33.33%;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.header-btn {
+    border: none;
+    padding: 0.65em 1.5em 0.65em 1em;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    left: 55vw;
+}
+
+.header-img {
+    width: 90vw;
+    position: relative;
+    right: 0.4em;
+}
+
+.title,.title-txt,.main-btn {
+    position: relative;
+    text-align: center;
+    color: #00252E;
+}
+
+.title {
+    width: 65%;
+    left: 2em;
+    top: 4.5em;
+}
+
+.title-txt {
+    width: 65%;
+    left: 2em;
+    top: 8.8em;
+}
+
+.main-btn {
+    padding: 0.9em 4.5em 0.9em 4.5em;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #FF52C1;
+    border: none;
+    position: absolute;
+    left: 13vw;
+    top: 28vh;
+}
+
+.grow-div,.flowing-div,.users-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 5em;
+}
+
+.grow-img,.flowing-img,.users-img {
+    width: 100vw;
+    margin-bottom: 3em;
+}
