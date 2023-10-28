@@ -204,3 +204,7 @@ a {
     left: 1em;
     margin-bottom: 4em;
 }
+
+@media (min-width: 1440px) {
+    
+}
