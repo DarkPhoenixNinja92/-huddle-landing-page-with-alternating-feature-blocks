@@ -188,7 +188,16 @@ a {
 .social {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.community {
+    border-radius: 10px;
+    position: relative;
+    top: 12em;
+    padding: 4em 2em 4em 2em;
+    background-color: white;
+    z-index: 100;
 }
 
 .fa-brands {
@@ -197,6 +206,7 @@ a {
     border-radius: 50%;
     padding: 0.45em;
     margin-bottom: 2em;
+    margin-right: 0.7em;
 }
 
 .copyright {
@@ -206,5 +216,46 @@ a {
 }
 
 @media (min-width: 1440px) {
-    
+
+    .logo-img {
+        width: 10%;
+    }
+
+    .header-btn {
+        padding-left: 4em;
+        padding-right: 4em;
+        position: relative;
+        left: 42vw;
+    }
+
+    .title,.title-txt {
+        text-align: left;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 60px;
+        width: 30%;
+    }
+
+    .title-txt {
+        width: 31%;
+        font-size: 18px;
+        line-height: 27px;
+        position: relative;
+        top: 13em;
+        left: 3em;
+    }
+
+    .main-btn {
+        position: relative;
+        top: -28em;
+        left: 5em;
+        z-index: 500;
+    }
+
+    .header-img {
+        width: 55%;
+        bottom: 3em;
+    }
 }
