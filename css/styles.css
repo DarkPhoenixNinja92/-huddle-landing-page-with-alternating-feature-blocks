@@ -37,7 +37,7 @@
 }
 
 .header-img {
-    width: 93vw;
+    width: 98vw;
     position: relative;
     right: 0.1em;
     padding-bottom: 9em;
@@ -232,7 +232,7 @@ a {
         padding-left: 4em;
         padding-right: 4em;
         position: relative;
-        left: 42vw;
+        left: 27vw;
     }
 
     .title,.title-txt {
@@ -262,8 +262,9 @@ a {
     }
 
     .header-img {
-        width: 55%;
-        bottom: 3em;
+        width: 45%;
+        bottom: 6em;
+        right: 5em;
     }
 
     .grow-title,.flowing-title,.users-title {
@@ -288,10 +289,14 @@ a {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
+        position: relative;
+        right: 15em;
     }
 
     .community {
-        width: 85%;
+        width: 65%;
+        position: relative;
+        right: 3em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -308,7 +313,56 @@ a {
         top: 10em;
     }
 
+    .footer {
+        width: 100vw;
+    }
+
     .logo-footer {
         width: 10%;
+    }
+
+    .location-footer {
+        right: 32.2vw;
+        top: 1.8vh;
+    }
+
+    .location-txt {
+        width: 21%;
+    }
+
+    .phone-div,.email-div {
+        right: 38.5vw;
+    }
+
+    .email-div {
+        right: 37.5vw;
+    }
+
+    .nav-list {
+        position: relative;
+        left: 32vw;
+        bottom: 15vh;
+    }
+
+    .career,.blog,.contact {
+        position: relative;
+        left: 16vw;
+        bottom: 12.2vh;
+    }
+
+    .fa-brands {
+        font-size: 18px;
+    }
+
+    .social {
+        position: relative;
+        left: 30vw;
+        bottom: 39vh;
+    }
+
+    .copyright {
+        position: relative;
+        left: 65vw;
+        bottom: 34vh;
     }
 }
