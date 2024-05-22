@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/DarkPhoenixNinja92/huddle-landing-page-with-alternating-feature-blocks)
-- Live Site URL: [GitHub Pages Live Site](darkphoenixninja92.github.io/huddle-landing-page-with-alternating-feature-blocks)
+- Solution URL: [GitHub Repository](https://github.com/ShaunPour/DarkPhoenixNinja92.github.io/huddle-landing-page-with-alternating-feature-blocks)
+- Live Site URL: [GitHub Pages Live Site](ShaunPour/DarkPhoenixNinja92.github.io.github.io/huddle-landing-page-with-alternating-feature-blocks)
 
 ### Built with
 
